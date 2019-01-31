@@ -1,0 +1,6 @@
+<p>
+  color works!
+</p>
+Choose color:
+<input type="color" [value]="color" (change)="setColor($event.target.value)">
+<div [style.background]="color" style="height: 300px"></div>
